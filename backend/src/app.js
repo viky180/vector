@@ -13,11 +13,27 @@ import courseRoutes from "./routes/courseRoutes.js";
 const app = express();
 
 const allowedOrigins = new Set(env.clientUrls);
+const isAllowedOrigin = (origin) => {
+  if (!origin || allowedOrigins.has(origin)) {
+    return true;
+  }
+
+  if (!env.allowVercelPreviewOrigins) {
+    return false;
+  }
+
+  try {
+    const { hostname } = new URL(origin);
+    return hostname.endsWith(".vercel.app");
+  } catch {
+    return false;
+  }
+};
 
 app.use(
   cors({
     origin(origin, callback) {
-      if (!origin || allowedOrigins.has(origin)) {
+      if (isAllowedOrigin(origin)) {
         return callback(null, true);
       }
       return callback(new Error(`CORS blocked for origin: ${origin}`));
