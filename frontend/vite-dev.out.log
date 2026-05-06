@@ -1,0 +1,50 @@
+
+> skillbridge-frontend@1.0.0 dev
+> vite --host 127.0.0.1
+
+
+  [32m[1mVITE[22m v5.4.21[39m  [2mready in [0m[1m513[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://127.0.0.1:[1m5173[22m/[39m
+[2m9:58:03 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/LandingPage.jsx, /src/index.css[22m
+[2m9:58:11 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/LandingPage.jsx, /src/index.css[22m
+[2m9:59:27 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/LandingPage.jsx, /src/index.css[22m
+[2m10:07:20 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m10:07:33 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/layout/Sidebar.jsx, /src/index.css[22m
+[2m10:07:49 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/AuthPage.jsx, /src/index.css[22m
+[2m10:07:55 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/dashboards/RecruiterDashboard.jsx, /src/index.css[22m
+[2m10:08:00 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/dashboards/AdminDashboard.jsx, /src/index.css[22m
+[2m10:08:06 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/CandidateScorecardPage.jsx, /src/index.css[22m
+[2m10:08:10 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/live/LiveClassPlaceholder.jsx, /src/index.css[22m
+[2m10:08:26 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/context/AuthContext.jsx, /src/index.css, /src/pages/dashboards/StudentDashboard.jsx, /src/pages/dashboards/AdminDashboard.jsx, /src/pages/dashboards/RecruiterDashboard.jsx, /src/pages/CourseDetailPage.jsx, /src/pages/dashboards/TeacherDashboard.jsx, /src/pages/CandidateScorecardPage.jsx[22m
+[2m10:08:26 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/common/RoleBadge.jsx, /src/index.css[22m
+[2m10:08:26 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/common/StatCard.jsx, /src/index.css[22m
+[2m10:08:26 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/layout/DashboardShell.jsx, /src/index.css[22m
+[2m10:08:26 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/live/LiveClassPlaceholder.jsx, /src/index.css[22m
+[2m10:08:26 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/resume/ResumePreview.jsx, /src/index.css[22m
+[2m10:08:26 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/context/AuthContext.jsx, /src/index.css[22m
+[2m10:08:26 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/dashboards/AdminDashboard.jsx, /src/index.css[22m
+[2m10:08:26 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/layout/Sidebar.jsx, /src/index.css[22m
+[2m10:08:26 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/layout/Topbar.jsx, /src/index.css[22m
+[2m10:08:26 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/AuthPage.jsx, /src/index.css[22m
+[2m10:08:26 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/routes/ProtectedRoute.jsx, /src/index.css[22m
+[2m10:08:26 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.jsx, /src/index.css[22m
+[2m10:08:26 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/dashboards/RecruiterDashboard.jsx, /src/index.css[22m
+[2m10:08:26 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/dashboards/StudentDashboard.jsx, /src/index.css[22m
+[2m10:08:26 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/dashboards/TeacherDashboard.jsx, /src/index.css[22m
+[2m10:08:26 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/CandidateScorecardPage.jsx, /src/index.css[22m
+[2m10:08:26 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/CourseDetailPage.jsx, /src/index.css[22m
+[2m10:08:26 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/LandingPage.jsx, /src/index.css[22m
+[2m10:08:26 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/NotFound.jsx, /src/index.css[22m
+[2m10:08:26 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m10:08:26 pm[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/main.jsx[22m
+[2m10:13:42 pm[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2mindex.html[22m
+[2m10:14:06 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m10:14:06 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m10:15:45 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m10:15:45 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m10:16:46 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/LandingPage.jsx, /src/index.css[22m
+[2m10:17:04 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/LandingPage.jsx, /src/index.css[22m
+[2m10:17:22 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/AuthPage.jsx, /src/index.css[22m
+[2m10:17:35 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/layout/Topbar.jsx, /src/index.css[22m
+[2m10:17:50 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/layout/Sidebar.jsx, /src/index.css[22m
