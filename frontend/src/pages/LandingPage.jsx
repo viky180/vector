@@ -1,7 +1,7 @@
 import { Link, useNavigate } from "react-router-dom";
 import { useAuth } from "../context/AuthContext";
 
-const navItems = ["Features", "For Students", "For Teachers", "For Recruiters", "Pricing"];
+const navItems = ["For Students", "For Teachers", "For Recruiters", "Pricing"];
 
 const courses = [
   ["</>", "Full Stack Development", "75%", "bg-emerald-500", "w-3/4"],
@@ -9,14 +9,7 @@ const courses = [
   ["UX", "UI/UX Design Fundamentals", "90%", "bg-orange-500", "w-[90%]"]
 ];
 
-const features = [
-  ["Resume", "Verified Resume", "Resumes are reviewed by multiple teachers selected by the platform for credibility.", "text-emerald-600", "bg-emerald-50"],
-  ["Ratings", "Teacher Ratings", "Multi-teacher evaluation ensures fair and comprehensive assessments.", "text-violet-600", "bg-violet-50"],
-  ["Live", "Live Classes", "Interactive live sessions with expert instructors and real-time doubt resolution.", "text-blue-600", "bg-blue-50"],
-  ["Tests", "Skill Assessments", "Industry-aligned tests evaluate knowledge and practical skills.", "text-orange-600", "bg-orange-50"],
-  ["Talent", "Recruiter Shortlisting", "Top recruiters shortlist candidates based on verified skills and performance.", "text-teal-600", "bg-teal-50"],
-  ["Track", "Placement Dashboard", "Track applications, shortlists, and offers in a personalized dashboard.", "text-purple-600", "bg-purple-50"]
-];
+
 
 const roles = [
   {
@@ -39,14 +32,7 @@ const roles = [
   }
 ];
 
-const journey = [
-  ["Book", "Learn", "Explore courses and learn with experts"],
-  ["Code", "Practice", "Work on projects and build real skills"],
-  ["Star", "Get Rated", "Get evaluated by multiple teachers"],
-  ["Doc", "Build Resume", "Create a verified and rated resume"],
-  ["Team", "Get Shortlisted", "Attract recruiter shortlisting"],
-  ["Job", "Get Hired", "Receive offers and start your career"]
-];
+
 
 const testimonials = [
   ["Riya Patel", "Software Engineer at TechNova", "SkillBridge helped me go from a beginner to a job-ready developer. The verified resume and ratings really made a difference.", "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=160&q=80"],
@@ -220,20 +206,6 @@ const LandingPage = () => {
           </div>
         </section>
 
-        <section id="features" className="px-4 py-12">
-          <div className="mx-auto max-w-7xl">
-            <h2 className="heading-section text-center">Everything you need to learn and get hired</h2>
-            <div className="mt-7 grid gap-3 sm:grid-cols-2 lg:grid-cols-6">
-              {features.map(([icon, title, copy, color, bg]) => (
-                <article key={title} className="rounded-xl border border-blue-100 bg-white p-5 text-center shadow-sm transition hover:-translate-y-1 hover:shadow-[0_16px_34px_rgba(23,51,120,0.1)]">
-                  <CircleIcon label={icon} className={`mx-auto ${bg} ${color}`} />
-                  <h3 className="heading-card mt-4">{title}</h3>
-                  <p className="mt-2 text-sm leading-[1.6] text-[#33415f]">{copy}</p>
-                </article>
-              ))}
-            </div>
-          </div>
-        </section>
 
         <section className="px-4 pb-10" id="for-students">
           <div className="mx-auto max-w-7xl">
@@ -289,20 +261,6 @@ const LandingPage = () => {
           </div>
         </section>
 
-        <section className="px-4 pb-10">
-          <div className="mx-auto max-w-7xl">
-            <h2 className="heading-section text-center">Your journey from learning to getting hired</h2>
-            <div className="mt-7 grid gap-5 sm:grid-cols-2 lg:grid-cols-6">
-              {journey.map(([icon, title, copy]) => (
-                <div key={title} className="text-center">
-                  <CircleIcon label={icon} className="mx-auto bg-emerald-50 text-emerald-700" />
-                  <h3 className="mt-3 font-semibold tracking-tight">{title}</h3>
-                  <p className="mt-1 text-sm leading-[1.6] text-[#33415f]">{copy}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
 
         <section className="px-4 pb-8" id="for-recruiters">
           <div className="mx-auto max-w-7xl">
